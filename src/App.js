@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Play from './src/components/play';
+import Play from './components/play';
+import Intro from './components/intro';
 import './App.css';
 
 class App extends Component {
@@ -14,7 +15,9 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p> */}
 
+        <Intro />
         <Play />
+      </div>
     );
   }
 }

@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ityped": "^1.0.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-helmet": "^5.2.0",
     "react-scripts": "1.1.4",
+    "react-typed": "^1.0.8",
     "typed.js": "^2.0.8"
   },
   "scripts": {

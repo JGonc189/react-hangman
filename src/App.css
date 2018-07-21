@@ -2,6 +2,10 @@
   text-align: center;
 } */
 
+body {
+  background-color: #222;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -22,9 +26,16 @@
   font-size: large;
 }
 
-.shell-wrapper {
-  width: 500px;
-  margin: 100px auto 0 auto;
+.intro__wrapper {
+  color: #b8b8b8;
+  margin: 45px auto 0 auto;
+  width: 650px;
+
+}
+
+.shell__wrapper {
+  width: 650px;
+  margin: 65px auto 0 auto;
   box-shadow: 0 0 30px rgba(0,0,0,0.4);
 
   -webkit-border-radius: 3px;
@@ -32,7 +43,7 @@
   border-radius: 3px;
 }
 
-.shell-top-bar {
+.shell__top__bar {
   text-align: center;
   color: #525252;
   padding: 5px 0;
@@ -59,9 +70,10 @@
 
 }
 
-.shell-body {
+.shell__body {
   margin: 0;
   padding: 5px;
+  height: 350px;
   list-style: none;
   background: #141414;
   color: #45d40c;
@@ -74,14 +86,14 @@
   -moz-border-radius-bottomleft: 3px;
 }
 
-.shell-body li:before {
+.shell__body li:before {
   content: '$';
   position: absolute;
   left: 0;
   top: 0;
 }
 
-.shell-body li {
+.shell__body li {
   word-wrap: break-word;
   position: relative;
   padding: 0 0 0 15px;
