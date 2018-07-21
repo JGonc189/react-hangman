@@ -6,7 +6,7 @@ class Intro extends Component {
         return (
             <div className='intro__wrapper'>
                 <h1><Typed
-                strings={[`Welcome to a "Coder's Hangman!"  The game is simple, just solve the puzzle by guessing the letters in the word! Too many wrong guesses and you're done!`,`Good Luck, and have fun...`]}
+                strings={[`Welcome to a "Coder's Hangman!"  The game is simple, just solve the puzzle by guessing the letters in the word! Too many wrong guesses and you're done!`, `If you need help, click <i class="fas fa-question-circle"></i>`, `Good Luck, and have fun...`]}
                 typeSpeed={70}
                 
                 /></h1>
