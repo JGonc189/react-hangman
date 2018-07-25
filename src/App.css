@@ -139,6 +139,7 @@ footer {
   font-size: small;
   position: relative;
   top: 40px;
+  border-top: 1px solid #f7f7f7;
 }
 
 @keyframes App-logo-spin {
