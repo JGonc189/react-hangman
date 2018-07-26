@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "word": "javascript",
+        "correctMessage": "That is correct!",
+        "incorrectMessage": "That is incorrect..."
+    },
+    {
+        "id": 2,
+        "word": "html",
+        "correctMessage": "That is correct!",
+        "incorrectMessage": "That is incorrect..."
+    },
+    {
+        "id": 3,
+        "word": "css",
+        "correctMessage": "That is correct!",
+        "incorrectMessage": "That is incorrect..."
+    }
+]
