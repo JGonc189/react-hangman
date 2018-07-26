@@ -3,6 +3,7 @@ import Play from './components/play';
 import Intro from './components/intro';
 import Footer from './components/footer';
 import './App.css';
+import words from './words.json';
 
 class App extends Component {
   render() {
