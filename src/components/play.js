@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 
 class Play extends Component {
     render() {
@@ -8,9 +8,9 @@ class Play extends Component {
                 
                 <p className='shell__top__bar'>
                     <span className='shell__icons'>
-                        <a href="#"><i className="fas fa-question-circle"></i></a>
-                        <a href="#"><i className="fas fa-times-circle"></i></a>
-                        <a href="#"><i className="fas fa-minus-circle"></i></a>
+                        <a><i className="fas fa-question-circle"></i></a>
+                        <a><i className="fas fa-times-circle"></i></a>
+                        <a><i className="fas fa-minus-circle"></i></a>
                     </span>
                     /Users/Anon/Sandbox/Hangman
                 </p>
